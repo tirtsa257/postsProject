@@ -1,0 +1,101 @@
+.main-content{
+    width: 50%;
+    border-radius: 20px;
+    box-shadow: 0 5px 5px rgba(19, 18, 19, 0.4);
+    margin: 5em auto;
+    display: flex;
+    background-color: black;
+}
+.company__info{
+    background-color: #682164;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: #fff;
+}
+.fa-android{
+    font-size:3em;
+}
+@media screen and (max-width: 640px) {
+    .main-content{width: 90%;}
+    .company__info{
+        display: none;
+    }
+    .login_form{
+        border-top-left-radius:20px;
+        border-bottom-left-radius:20px;
+    }
+}
+@media screen and (min-width: 642px) and (max-width:800px){
+    .main-content{width: 70%;}
+}
+.row > h2{
+    color:#9239a8;
+}
+.login_form{
+    background-color: #fff;
+    border-top-right-radius:20px;
+    border-bottom-right-radius:20px;
+    border-top:1px solid #ccc;
+    border-right:1px solid #ccc;
+}
+form{
+    padding: 0 2em;
+}
+.form__input{
+    border:0px solid transparent;
+    border-radius: 0;
+    border-bottom: 1px solid #aaa;
+    padding: 1em .5em .5em;
+    padding-left: 2em;
+    outline:none;
+    margin:1.5em auto;
+    transition: all .5s ease;
+}
+.form__input:focus{
+    border-bottom-color: #660080;
+    box-shadow: 0 0 5px rgba(189, 115, 250, 0.4); 
+    border-radius: 4px;
+}
+.btn{
+    transition: all .5s ease;
+    border-radius: 30px;
+    color:#1f7f86;
+    font-weight: 600;
+    background-color: #fff;
+    border: 1px solid #620080;
+    margin-top: 1.5em;
+    margin-bottom: 1em;
+    background: #c3fff3;
+    color: inherit;
+    padding: 6px 24px;
+}
+.btn:hover, .btn:focus{
+    background-color: #A1FFEC;
+    color:#fff;
+}
+.company_title{
+ text-align: center;
+}
+.form-info-section {
+    background: #A1FFEC;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-bottom: 44px;
+}
+.container-fluid {
+    width: 100%;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.out-from-box {
+    background: #343441;
+    max-width: 1024px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 13px 15px;
+}
